@@ -1,6 +1,6 @@
 layout: page
 title: "Test"
-permalink: /
+permalink: /about/
 
 # Header
 
