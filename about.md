@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Test"
+title: "ABOUT"
 permalink: /about/
 ---
 
-# Header
+# About Header
 
 Some content
