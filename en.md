@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "ABOUT"
+title: "EN"
 permalink: /en/
 ---
 
