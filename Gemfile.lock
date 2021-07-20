@@ -80,6 +80,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-17
+  x86_64-darwin-18
 
 DEPENDENCIES
   jekyll
@@ -90,4 +91,4 @@ DEPENDENCIES
   rspec
 
 BUNDLED WITH
-   2.2.13
+   2.2.22
