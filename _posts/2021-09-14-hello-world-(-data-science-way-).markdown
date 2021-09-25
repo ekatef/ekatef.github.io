@@ -1,16 +1,16 @@
-The climate data are a perfect data science playgroung with a nice side effect being a better feeling of the climate change. Actually, both effects I know from my own expirience.
+The climate data are a perfect data science playground with a nice side effect being a better feeling of the climate change. Actually, both effects I know from my own experience.
 
-There are nowadays a lot of beautiful climate archives available. (Thanks to the open science and open data concepts!) However, I belive that it's of key importance to always keep in mind where are from the data you are using. And it's worth to start with the most basic datasets.
+There are nowadays a lot of beautiful climate archives available. (Thanks to the open science and open data concepts!) However, I believe that it's of key importance to always keep in mind where are from the data you are using. And it's worth to start with the most basic datasets.
 
 The basic part of the climate science are observations. The meteorological measurements are behind all the climate models. So, let's take the meteorological records for some location and check what they look like. We will use R language which has excellent data science functionality for research tasks.
 
 ### Data selection
 
-My location choise is Angermuende town in Brandenburg area. I remember it as a small, beautiful and very quite place with a wonderful flair of its long and dramatic history. Highly recommended to visit on case you visit Berlin area and need a little break from the city buzz. 
+My location choice is Angermuende town in Brandenburg area. I remember it as a small, beautiful and very quite place with a wonderful flair of its long and dramatic history. Highly recommended to visit on case you visit Berlin area and need a little break from the city buzz. 
 
 ![Angermuende](/assets/Angermuende.JPG){:class="img-responsive"}
 
-What is going there with the climate? The most honest answer could give a meteorological record of the local observation station. That is exactly what does show the thermometer of a weather station at the given time moments without any computational artefacts. 
+What is going there with the climate? The most honest answer could give a meteorological record of the local observation station. That is exactly what does show the thermometer of a weather station at the given time moments without any computational artifacts. 
 
 The observation records throughout Germany are kindly provided by the German Meteorological Office on the Open Data-Server via [https://opendata.dwd.de](https://opendata.dwd.de). We are interested in the weather observations archive and the hourly air temperature measurements in particular. That is we have to send a request via the following url
 
@@ -178,7 +178,7 @@ ggsave(paste0("tas_ann_adv", st_id ,".jpeg"))
 
 ![tas_ann_adv0016](/assets/tas_ann_adv00164.jpeg){:class="img-responsive"}
 
-The first thing we may see is that the climate warming is a reality. The multi-annual temperature increase during the covered time period is more than 2C target set by the Paris Agreement as the high warming limit… The warming dynamics is quite complicated and an increasing temperature trend is combined with significant year-to-year variations. For example, the coldest observed year was 1998 when a warming tendency has still established. Which does not prevents the temperature rise during the following years. The next local temperature mimimum in 2010 is noticebly warmer as 1998 was. 
+The first thing we may see is that the climate warming is a reality. The multi-annual temperature increase during the covered time period is more than 2C target set by the Paris Agreement as the high warming limit… The warming dynamics is quite complicated and an increasing temperature trend is combined with significant year-to-year variations. For example, the coldest observed year was 1998 when a warming tendency has still established. Which does not prevents the temperature rise during the following years. The next local temperature minimum in 2010 is noticeable warmer as 1998 was. 
 
- Generally, this natural variability seems to be somewhat quasi-periodical. For example, especially hot warm years are observed each 8-10 years. Such complicated features are directly related to the big research questions the climate scientists are currently working on. But the meteorological records we are looking on right now are the only primary data source for this research. In further posts I'm going to demonstrate application of different data science methods to understand climate dynamics and the climate change in more details.
+ The climate natural variability seems to be quasi-periodical. For example, especially hot years are observed in Argenmuende each 8-10 years. Such oscillations and theirs reasons directly relate to the big research questions of the modern climate science. Distinguish between the natural variability features and the climate change is currently one of the biggest challenges. However, quite basic data science tools allow to touch the spectral parameters of the ambient temperature getting a feeling of the natural climate variability. But that is a little different topic which I hope to show in one of the further posts :)
 
