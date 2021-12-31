@@ -121,7 +121,7 @@ Quite a typical issue during a package-testing R session looks like:
 >    p_barometric
 ```
 
-That means a conflict due two functions with the same name `p_barometric`. It can happen easiliy if the `p_barometric` was defined in the R session to be imported with a `package.skeleton()` call. The solution is simple
+That means a conflict due two functions with the same name `p_barometric`. It can happen easily if the `p_barometric` was defined in the R session to be imported with a `package.skeleton()` call. The solution is simple
 `rm(p_barometric)` or `rm(list = "p_barometric")`. The conflict can also happen if functions with the same name are defined by different loaded packages. There is a great [wiki-post](https://stackoverflow.com/a/39137111/8465924) of the StackOverflow on that issue. 
 
 
