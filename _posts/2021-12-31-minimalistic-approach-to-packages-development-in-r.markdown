@@ -1,6 +1,6 @@
 The package concept is a basic one to ensure reproducibility of your R code. The R packaging philosophy makes wonder in dependence management and code documentation culture. Actually, that is one of the main reasons why R is great for a field data analysis. The downside of this approach is that things can easily go over-complicated.
 
-![creativity_v0](/assets/creativity_v0.JPG){:class="img-responsive"}
+![creativity_v0](assets/creativity_v0.JPG){:class="img-responsive"}
 
 There are a lot of brilliant tutorials explaining how to develop an R package. But usually they suppose that a package developer should rely on some additionally libraries from the very beginning. That may be perfectly reasonable but my personal preference is to start as simple as I can. Implementation of my KISS approach towards R package development is presented bellow. Apart of creation, building and installing the package, we will also look on a way to remove its' testing versions from your machine. From my experience, that feels very encouraging when experimenting if you know in advance how to clean!
 
@@ -135,5 +135,5 @@ You may ensure that the package was in fact removed by looking on the folder whe
 
 An introdactory to R packaging wouldn't be complete without mentioning the detailed [**Writing R Extensions**](https://cran.r-project.org/doc/manuals/r-release/R-exts.html) by R core team and the [**R Packages**](https://r-pkgs.org/) book by H.Wickham and J.Bryan. Both are detailed, quite extensive and must-reads for everyone wanting to dive into the R development world. However, you don't need still to be an expert to start. A good moment to remember...
 
-![creativity](/assets/creativity_v2.JPG){:class="img-responsive"}
+![creativity](assets/creativity_v2.JPG){:class="img-responsive"}
 
